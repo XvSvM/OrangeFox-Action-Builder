@@ -25,12 +25,12 @@ on:
         default: 'https://github.com/XvSvM/H728SLM.git'
       KERNEL_TREE:
         description: 'OrangeFox Kernel Tree'
-        required: true
-        default: 'diana_p1_arm64-userdebug-14-UP1A.231105.001.A1-eng.ubuntu.20250217.194226-release-keys'
+        required: false
+        default: ''
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
-        default: 'fox_12.1'
+        default: 'diana_p1_arm64-userdebug-14-UP1A.231105.001.A1-eng.ubuntu.20250217.194226-release-keys'
       KERNEL_TREE_BRANCH:
         description: 'OrangeFox Kernel Tree Branch'
         required: true
