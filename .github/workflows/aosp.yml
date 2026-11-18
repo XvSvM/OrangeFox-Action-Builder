@@ -22,11 +22,11 @@ on:
       DEVICE_TREE:
         description: 'OrangeFox Device Tree'
         required: true
-        default: 'https://github.com/NSR-Resources/android_device_xiaomi_lisa_aosp-ofox'
+        default: 'https://github.com/XvSvM/H728SLM.git'
       KERNEL_TREE:
         description: 'OrangeFox Kernel Tree'
         required: true
-        default: 'https://github.com/911-NSR/android_kernel_qcom_sm8350'
+        default: 'diana_p1_arm64-userdebug-14-UP1A.231105.001.A1-eng.ubuntu.20250217.194226-release-keys'
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
@@ -38,15 +38,15 @@ on:
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
-        default: 'device/xiaomi/lisa'
+        default: 'device/x96/x96qproplus'
       KERNEL_PATH:
         description: 'Specify your Kernel Path'
-        required: true
+        required: false
         default: 'kernel/xiaomi/sm8350'
       DEVICE_NAME:
         description: 'Specify your Device Codename'
         required: true
-        default: 'lisa'
+        default: 'x96qproplus'
       BUILD_TARGET:
         description: 'Specify your Build Target'
         required: true
